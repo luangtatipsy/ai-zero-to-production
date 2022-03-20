@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# this repositiory
+data/*
+models/*
+logs/*
+notebooks/*
+!data/.gitkeep
+!models/.gitkeep
+!logs/.gitkeep
+!notebooks/.gitkeep
+.DS_Store
