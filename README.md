@@ -40,6 +40,7 @@ docker run -p <host-port>:80 <image>:<tag>
 b. Build to Docker Hub to be used in production environment
 ```sh
 docker buildx create --use
+docker login
 docker buildx build --platform linux/amd64,linux/arm64 -t <your-username>/<image>:<tag> -f docker/Dockerfile . --push
 ```
 
