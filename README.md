@@ -30,6 +30,11 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
+## Run API Locally
+```sh
+uvicorn src.app:app --reload
+```
+
 ## Build Docker Image
 a. Build locally
 ```sh
